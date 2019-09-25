@@ -1,0 +1,15 @@
+C:\Users\Evgeny\source\repos\ConsoleApp\FauvoriteColorr\bin\Debug\netcoreapp2.1\Names.txt
+C:\Users\Evgeny\source\repos\ConsoleApp\FauvoriteColorr\bin\Debug\netcoreapp2.1\FauvoriteColorr.deps.json
+C:\Users\Evgeny\source\repos\ConsoleApp\FauvoriteColorr\bin\Debug\netcoreapp2.1\FauvoriteColorr.runtimeconfig.json
+C:\Users\Evgeny\source\repos\ConsoleApp\FauvoriteColorr\bin\Debug\netcoreapp2.1\FauvoriteColorr.runtimeconfig.dev.json
+C:\Users\Evgeny\source\repos\ConsoleApp\FauvoriteColorr\bin\Debug\netcoreapp2.1\FauvoriteColorr.dll
+C:\Users\Evgeny\source\repos\ConsoleApp\FauvoriteColorr\bin\Debug\netcoreapp2.1\FauvoriteColorr.pdb
+C:\Users\Evgeny\source\repos\ConsoleApp\FauvoriteColorr\bin\Debug\netcoreapp2.1\ConsoleApp.dll
+C:\Users\Evgeny\source\repos\ConsoleApp\FauvoriteColorr\bin\Debug\netcoreapp2.1\ConsoleApp.pdb
+C:\Users\Evgeny\source\repos\ConsoleApp\FauvoriteColorr\obj\Debug\netcoreapp2.1\FauvoriteColorr.csprojAssemblyReference.cache
+C:\Users\Evgeny\source\repos\ConsoleApp\FauvoriteColorr\obj\Debug\netcoreapp2.1\FauvoriteColorr.csproj.CoreCompileInputs.cache
+C:\Users\Evgeny\source\repos\ConsoleApp\FauvoriteColorr\obj\Debug\netcoreapp2.1\FauvoriteColorr.AssemblyInfoInputs.cache
+C:\Users\Evgeny\source\repos\ConsoleApp\FauvoriteColorr\obj\Debug\netcoreapp2.1\FauvoriteColorr.AssemblyInfo.cs
+C:\Users\Evgeny\source\repos\ConsoleApp\FauvoriteColorr\obj\Debug\netcoreapp2.1\FauvoriteColorr.csproj.CopyComplete
+C:\Users\Evgeny\source\repos\ConsoleApp\FauvoriteColorr\obj\Debug\netcoreapp2.1\FauvoriteColorr.dll
+C:\Users\Evgeny\source\repos\ConsoleApp\FauvoriteColorr\obj\Debug\netcoreapp2.1\FauvoriteColorr.pdb
