@@ -8,54 +8,52 @@ namespace Test1
     {
         static void Main(string[] args)
         {
-
-            while (true)
-            {
-                Console.Write("if yo want see list, press a\nif yo want add to list, press b\nif yo want remove from list, press c\nsee full list of students press d\n");
-                char a = (char)Console.Read();
-                char b = (char)Console.Read();
-                char c = (char)Console.Read();
-                char d = (char)Console.Read();
-                Console.ReadLine();
-
-                if (Char.IsLetter(a))
+                while (true)
                 {
-                    Console.WriteLine("Please add new student...");
-                    List<StudentList> students = new List<StudentList>();
-                    Console.WriteLine("Please enter student name!");
+                    List<Student> studentName = new List<Student>
+                    {
+                        new Student("Bob","Marley","yes"),
+
+                    };
+                    Console.WriteLine("\nPlease add new student...");
                     string firstName = Console.ReadLine();
-                    Console.WriteLine("Please enter student lastname!");
+                    Console.WriteLine("\nPlease enter lastname...");
                     string lastName = Console.ReadLine();
-                    Console.WriteLine("Please enter student personal code!");
-                    string personalCode = Console.ReadLine();
-                    Console.WriteLine("Student is studying? ");
+                    Console.WriteLine("\nStudent is studuyin? ");
                     string isStudying = Console.ReadLine();
-                    Console.WriteLine("Student status...");
-                    string status = Console.ReadLine();
+                    /////
+                    ///
+                    Student oneStudent = new Student(firstName, lastName, isStudying);
+                    Console.WriteLine("Student added " + oneStudent);
 
-                    StudentList student = new StudentList(firstName, lastName, personalCode, isStudying, status);
+                    //oneStudent.Group= new Group();
+                    Console.ReadLine();
+                    /////////////////////////////////////////////
 
-                    Console.WriteLine("New student added " + student);
+                    List<Group> newBaseGroup = new List<Group>
+                        {
+                        new Group("TARgv18"),
 
-   
+                        };
 
-                }
-                else if (Char.IsLetter(b))
-                {
-                    Console.WriteLine("Add new student...");
+                    Console.WriteLine("\nPlease add new group to the student ");
+                    string groupName = Console.ReadLine();
 
-                }
-                else if (Char.IsLetter(c))
-                {
-                    Console.WriteLine("Remove student...");
+                    Group newGroup = new Group(groupName);
+                    Console.WriteLine("Group added " + newGroup);
+                    Console.WriteLine("Group " + newGroup + " student " + oneStudent);
+                    Console.ReadLine();
 
-                }
-                else if (Char.IsLetter(d))
-                {
-                    Console.WriteLine("Full list of students");
-                }
 
+
+
+
+                Group_base newList= new Group_base();
+                Console.WriteLine(newList);
+                Console.ReadLine();
             }
         }
+        
+        
     }
 }
